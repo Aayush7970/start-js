@@ -14,3 +14,20 @@ let myfunction =function(){
     console.log("Hello world!");
 }
 console.log(typeof second)
+
+//Stack (Primitive) and Heap (Non-Primitive)
+let mystack="Aayush";
+let copystack=mystack; // this one is by value;
+copystack="Ranjan";
+console.log(mystack)
+console.log(copystack);
+
+//object -> Non-Primitive -> Heap
+let userone={
+    email:"aayush@gmail.com",
+    name:"Aayush"
+}
+let usertwo=userone; // this one is by referance;
+usertwo.email="ranjan@gmail.com";
+console.log(usertwo)
+console.log(userone)
