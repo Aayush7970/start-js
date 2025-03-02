@@ -1,4 +1,4 @@
-//use strict
+"use strict"; // treat all JS as newer version and whole script is in script mode and because of this class is used in javascript
 
 let age=18 //integer
 let place="Muzaffarpur" //String
