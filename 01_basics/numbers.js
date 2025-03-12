@@ -5,7 +5,8 @@ const balance=100;
 console.log(balance.toString().length)
 console.log(balance.toFixed(3));
 const decimal=128.98;
-console.log(decimal.toPrecision(4));
+console.log(decimal.toFixed(4));// it prints 4 terms after decimal point
+console.log(decimal.toPrecision(4)); // it prints only 4 term including before decimal point and after decimal point
 const hundred=1000000;
 console.log(hundred.toLocaleString());// it gives the us based number;
 console.log(hundred.toLocaleString('en-in'))// it gives the number based on indian number system

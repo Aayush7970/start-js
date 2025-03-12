@@ -17,4 +17,12 @@ const getName=new String("Aayush"); // this is a prototype
 const getspace="  aayush  ";
 console.log(getspace.trimEnd());
 console.log(getspace.replace("aa","Aa"));// it will not replace in the original string because of immutibility
+console.log(getspace);
 console.log(getspace.includes("aa"))// it check that the given string is present in the original string or not.
+//console.log(`heelo ${"aayush"}`)
+const c="aayush";
+const v=new String("aayush");
+console.log(c==v);
+console.log(c===v);
+// == -> this check that the value usder the given variable is same or not 
+// === -> this checks that the address of both variable is same or not

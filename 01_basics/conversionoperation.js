@@ -10,7 +10,7 @@ console.table([valnum,typeof valnum]) // 33
 console.table([valnum2,typeof(valnum2)])
 
 let check=null
-console.table([Number(check),typeof(Number(check))])  //null is converted to 0 when conversion to number.9
+console.table([Number(check),typeof(Number(check))])  //null is converted to 0 when conversion to number.
 
 /*
 "33" => 33
@@ -24,6 +24,7 @@ true => 1 & false => 0
 //**********************************************Operatons***************************************************//
 let value=10/3.0;
 let ans=-value;
+console.log(ans);
 console.log(typeof(value))
 
 //console.log(2**8) -> 2 to the power of 8
